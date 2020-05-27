@@ -13,7 +13,7 @@ use BimRunner\Actions\Manager\Annotation\Action;
 
 /**
  * @Action(
- *     name = "Initialisation de Docker pour Drupal ann",
+ *     name = "Initialisation de Docker pour Drupal",
  *     weight = 0
  * )
  */
@@ -68,8 +68,8 @@ class DrupalDockerAction extends AbstractAction {
         ProjectTools::me()->askName($this);
 
         // Qeuestion sur les users ids.
-        $this->ask(static::PROP_WEB_UID, 'Quel est l\'utiisateur uid (généralement 1000 sous linux');
-        $this->ask(static::PROP_WEB_GID, 'Quel est l\'utiisateur gid (généralement 1000 sous linux');
+        $this->ask(static::PROP_WEB_UID, 'Quel est l\'utiisateur uid ? (généralement 1000 sous linux)');
+        $this->ask(static::PROP_WEB_GID, 'Quel est l\'utiisateur gid ? (généralement 1000 sous linux)');
     }
 
     /**

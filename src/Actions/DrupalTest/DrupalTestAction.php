@@ -13,8 +13,8 @@ use Symfony\Component\Console\Command\Command;
 use BimRunner\Actions\Manager\Annotation\Action;
 
 /**
- * @Action(
- *     name = "Drupal test ann",
+ * //@Action(
+ *     name = "Drupal test",
  *     weight = 20
  * )
  */
