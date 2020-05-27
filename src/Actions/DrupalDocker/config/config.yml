@@ -1,0 +1,4 @@
+repo: http://gitlab.consertotech.pro/tech/bp-drupal.git
+tag: "refacto/settings"
+#repo: https://thomasse@bitbucket.org/thomasse/docker-drupal.git
+#repo: git@git.drupal.org:project/bundle_override.git

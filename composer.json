@@ -1,0 +1,37 @@
+{
+    "name": "lycanthrop/drupal-builder",
+    "description": "Outil de création de projet drupal",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "thomas.secher",
+            "email": "thomas.secher@consertotech.pro"
+        }
+    ],
+    "bin": [
+        "drupal-builder"
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "tsecher/bim-runner": "dev-master"
+    },
+    "repositories": {
+        "bim-runner": {
+            "type": "vcs",
+            "url": "https://github.com/tsecher/bim-runner.git"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3"
+    }
+}

@@ -1,0 +1,14 @@
+all:
+    -
+        id: content_synchronizer
+        package: drupal/content_synchronizer
+        name: 'Content synchronizer'
+    -
+        id: field_group
+        package: drupal/field_group
+        name: 'Field group'
+dev:
+    -
+        id: devel
+        package: drupal/devel
+        name: Devel
