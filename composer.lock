@@ -2539,12 +2539,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tsecher/bim-runner.git",
-                "reference": "85f04ed4d7e991dd394f9b3a7743003714d491e2"
+                "reference": "8e8edb2346b790829648550b0e538d62d1e407ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tsecher/bim-runner/zipball/85f04ed4d7e991dd394f9b3a7743003714d491e2",
-                "reference": "85f04ed4d7e991dd394f9b3a7743003714d491e2",
+                "url": "https://api.github.com/repos/tsecher/bim-runner/zipball/8e8edb2346b790829648550b0e538d62d1e407ad",
+                "reference": "8e8edb2346b790829648550b0e538d62d1e407ad",
                 "shasum": ""
             },
             "require": {
@@ -2560,6 +2560,9 @@
             "require-dev": {
                 "symfony/var-dumper": "~3"
             },
+            "bin": [
+                "generate-runner"
+            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -2582,7 +2585,7 @@
                 "source": "https://github.com/tsecher/bim-runner/tree/master",
                 "issues": "https://github.com/tsecher/bim-runner/issues"
             },
-            "time": "2020-05-27T10:23:01+00:00"
+            "time": "2020-05-27T13:42:48+00:00"
         }
     ],
     "packages-dev": [
