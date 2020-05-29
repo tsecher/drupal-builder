@@ -23,7 +23,7 @@
         }
     },
     "require": {
-        "tsecher/bim-runner": "dev-master",
+        "tsecher/bim-runner": "~1",
         "symfony/dotenv": "^5.0"
     },
     "repositories": {
